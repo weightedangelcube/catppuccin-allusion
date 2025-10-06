@@ -49,7 +49,7 @@
 
 ## 💝 Thanks to
 
-- [angelcube](https://github.com/angelcube)
+- [angelcube](https://github.com/weightedangelcube)
 
 &nbsp;
 
