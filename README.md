@@ -43,7 +43,7 @@
 
    Windows: `%appData%\Allusion\themes`
 
-   macOS: `~/Library/Application Support/themes`
+   macOS: `~/Library/Application Support/Allusion/themes`
 3. Open the app and go to **Settings** > **Appearance** > **Custom theme**.
 4. Select the downloaded theme.
 
