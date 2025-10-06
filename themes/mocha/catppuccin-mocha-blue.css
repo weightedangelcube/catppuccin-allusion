@@ -1,0 +1,51 @@
+.dark, .light {
+    --text-color: #cdd6f4;
+    --text-color-muted: #a6adc8;
+    --text-color-strong: #cdd6f4;
+
+    --background-color: #1e1e2e;
+    --background-color-alt: #11111b;
+    --background-color-selected: rgba(147, 153, 178, 0.3);
+    
+    --titlebar-background-color: #11111b;
+    --titlebar-background-color-alt: rgba(147, 153, 178, 0.3);
+    --titlebar-color: #a6adc8;
+
+    --accent-color-blue: #89b4fa;
+    --accent-color-red: #f38ba8;
+    --accent-color-yellow: #f9e2af;
+    --accent-color-green: #a6e3a1;
+
+    --box-shadow: 0.125rem 0.25rem 1rem rgba(0, 0, 0, 0.125);
+    --accent-color: #89b4fa;
+
+    --hover-color: rgba(147, 153, 178, 0.3);
+    --hover-color-alt: rgba(147, 153, 178, 0.3);
+
+    --border-color: #313244;
+
+    --input-color: #11111b;
+    --input-color-hover: rgba(147, 153, 178, 0.3);
+
+    --scrollbar-track-color: transparent;
+    --scrollbar-thumb-color: #313244;
+    --scrollbar-thumb-not-hover: #313244;
+    --scrollbar-thumb-hover-color: #9399b2;
+    --scrollbar-thumb-border: none;
+    --scrollbar-border-not-hover: none;
+
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+.dark .tag, .light .tag {
+    background-color: var(--accent-color);
+}
+
+.dark .btn-filled, .light .btn-filled {
+    --text-color: var(--background-color);
+    --text-color-strong: var(--background-color);
+}
+.dark *::selection, .light *::selection {
+    background-color: rgba(137, 180, 250, 0.3);
+}
