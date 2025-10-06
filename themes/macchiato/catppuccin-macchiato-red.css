@@ -1,51 +1,51 @@
 .dark, .light {
-    --text-color: #cad3f5;
-    --text-color-muted: #a5adcb;
-    --text-color-strong: #cad3f5;
+  --text-color: #cad3f5;
+  --text-color-muted: #a5adcb;
+  --text-color-strong: #cad3f5;
 
-    --background-color: #24273a;
-    --background-color-alt: #181926;
-    --background-color-selected: rgba(147, 154, 183, 0.3);
-    
-    --titlebar-background-color: #181926;
-    --titlebar-background-color-alt: rgba(147, 154, 183, 0.3);
-    --titlebar-color: #a5adcb;
+  --background-color: #24273a;
+  --background-color-alt: #181926;
+  --background-color-selected: rgba(147, 154, 183, 0.3);
 
-    --accent-color-blue: #8aadf4;
-    --accent-color-red: #ed8796;
-    --accent-color-yellow: #eed49f;
-    --accent-color-green: #a6da95;
+  --titlebar-background-color: #181926;
+  --titlebar-background-color-alt: rgba(147, 154, 183, 0.3);
+  --titlebar-color: #a5adcb;
 
-    --box-shadow: 0.125rem 0.25rem 1rem rgba(0, 0, 0, 0.125);
-    --accent-color: #ed8796;
+  --accent-color-blue: #8aadf4;
+  --accent-color-red: #ed8796;
+  --accent-color-yellow: #eed49f;
+  --accent-color-green: #a6da95;
 
-    --hover-color: rgba(147, 154, 183, 0.3);
-    --hover-color-alt: rgba(147, 154, 183, 0.3);
+  --box-shadow: 0.125rem 0.25rem 1rem rgba(0, 0, 0, 0.125);
+  --accent-color: #ed8796;
 
-    --border-color: #363a4f;
+  --hover-color: rgba(147, 154, 183, 0.3);
+  --hover-color-alt: rgba(147, 154, 183, 0.3);
 
-    --input-color: #181926;
-    --input-color-hover: rgba(147, 154, 183, 0.3);
+  --border-color: #363a4f;
 
-    --scrollbar-track-color: transparent;
-    --scrollbar-thumb-color: #363a4f;
-    --scrollbar-thumb-not-hover: #363a4f;
-    --scrollbar-thumb-hover-color: #939ab7;
-    --scrollbar-thumb-border: none;
-    --scrollbar-border-not-hover: none;
+  --input-color: #181926;
+  --input-color-hover: rgba(147, 154, 183, 0.3);
 
-    color: var(--text-color);
-    background: var(--background-color);
+  --scrollbar-track-color: transparent;
+  --scrollbar-thumb-color: #363a4f;
+  --scrollbar-thumb-not-hover: #363a4f;
+  --scrollbar-thumb-hover-color: #939ab7;
+  --scrollbar-thumb-border: none;
+  --scrollbar-border-not-hover: none;
+
+  color: var(--text-color);
+  background: var(--background-color);
 }
 
 .dark .tag, .light .tag {
-    background-color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .dark .btn-filled, .light .btn-filled {
-    --text-color: var(--background-color);
-    --text-color-strong: var(--background-color);
+  --text-color: var(--background-color);
+  --text-color-strong: var(--background-color);
 }
 .dark *::selection, .light *::selection {
-    background-color: rgba(237, 135, 150, 0.3);
+  background-color: rgba(237, 135, 150, 0.3);
 }
